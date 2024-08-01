@@ -279,12 +279,11 @@ const Home = () => {
           backgroundPosition: "center"
         }}
       />
-      <div className="sm:flex md:hidden flex-wrap py-20 pl-30 justify-center bg-[url('/img/testimonial.png')] bg-no-repeat h-[300px]"
-        style={{
-          backgroundSize: "200%",
-          backgroundPosition: "center"
-        }}
-      />
+      <div className="sm:flex md:hidden flex-wrap justify-center relative"
+      >
+        <Image src={require("../public/img/testimonial_chat.png")} className="w-32 absolute left-16 top-6" />
+        <Image src={require("../public/img/testimonial_sm.jpg")}/>
+      </div>
 
       <Container className="flex flex-wrap py-0 justify-center text-centers">
         <div className="max-w-2xl py-4 text-lg leading-normal">
