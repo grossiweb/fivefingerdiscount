@@ -125,8 +125,8 @@ const Home = () => {
             <div className="text-[#000000] text-base text-center py-10 font-shadows">No refunds, No guarantees.</div>
             <div className="text-[#000000] text-base text-center font-shadows">Please note i require a private jet to pick me up from an anonymous location. If no private jet is provided first class air fare is an additional charge. Additional hidden fees are for cleaning supplies and an unmarked car for quick get away.</div>
           </SectionTitle>
-          <div className="max-w-2xl py-4 text-lg leading-normal">
-            <div className="grid gap-5 grid-cols-3">
+          <div className="max-w-2xl py-4 text-lg leading-normal ">
+            <div className="grid gap-5 grid-cols-3 justify-center items-center">
               <Image
                 src={require("../public/img/smile.png")}
                 className="flex m-auto"
@@ -134,13 +134,9 @@ const Home = () => {
                 loading="lazy"
                 placeholder="blur"
               />
-              <Image
-                src={require("../public/img/btn_signup.png")}
-                className="flex m-auto"
-                alt="Hero Illustration"
-                loading="lazy"
-                placeholder="blur"
-              />
+              <button className="btn text-lg bg-[#F4660F] hover:bg-[#f4670f] text-white">
+                <a href="https://product.fivefingerdiscountcleaningservice.com" className="w-fit" target="_blank">Sign Up Now</a>
+              </button>
               <Image
                 src={require("../public/img/smile.png")}
                 className="flex m-auto"
